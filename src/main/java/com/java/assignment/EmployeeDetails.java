@@ -23,7 +23,6 @@ public class EmployeeDetails {
 
         Collections.sort(uniqueEmpIds, Collections.reverseOrder());
         System.out.println("sorting the employees ids in descending order:"+uniqueEmpIds);
-
         System.out.println("-----------------------------------------------------");
 
 
@@ -46,7 +45,7 @@ public class EmployeeDetails {
                 System.out.println("email: " + empdata.getEmail());
 
             }
-            System.out.println(empdata);
+
         }
 
     }
